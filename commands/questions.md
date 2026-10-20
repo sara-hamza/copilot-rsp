@@ -9,8 +9,8 @@ $ARGUMENTS
 
 Steps:
 1. Apply `copilot-common` privacy rules. Keep the end customer's name, phone and full address out of the output; use the service identifier the RSP uses.
-2. Place the symptom on the demarcation map in `references/wholesale-demarcation.md`: which elements are the company's (ONT, PON, OLT, aggregation to NNI) and which are the RSP's (BNG, authentication, IP, CPE, customer relationship), and what each side can see.
-3. Pick the matching symptom block in `references/rsp-question-bank.md` and tailor the questions to the evidence already provided. Drop any question the paste already answers.
+2. Place the symptom on the demarcation map in `${CLAUDE_PLUGIN_ROOT}/skills/rsp-assistant/references/wholesale-demarcation.md`: which elements are the company's (ONT, PON, OLT, aggregation to NNI) and which are the RSP's (BNG, authentication, IP, CPE, customer relationship), and what each side can see.
+3. Pick the matching symptom block in `${CLAUDE_PLUGIN_ROOT}/skills/rsp-assistant/references/rsp-question-bank.md` and tailor the questions to the evidence already provided. Drop any question the paste already answers.
 4. Output:
 ```
 RSP CLAIM (as understood)

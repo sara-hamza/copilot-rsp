@@ -9,7 +9,7 @@ $ARGUMENTS
 
 1. Apply `copilot-common` privacy rules.
 2. Split the draft into individual claims (one per sentence that asserts a fact, a cause or a responsibility). Number them.
-3. For each claim, find the evidence line that supports it. Use `references/wholesale-demarcation.md` to decide whether the claim is about something the network operator can actually see; a claim about the RSP side (BNG, RADIUS, IP, CPE) is NOT SUPPORTED unless the RSP supplied the evidence.
+3. For each claim, find the evidence line that supports it. Use `${CLAUDE_PLUGIN_ROOT}/skills/rsp-assistant/references/wholesale-demarcation.md` to decide whether the claim is about something the network operator can actually see; a claim about the RSP side (BNG, RADIUS, IP, CPE) is NOT SUPPORTED unless the RSP supplied the evidence.
 4. Output:
 ```
 EVIDENCE CHECK

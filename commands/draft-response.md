@@ -8,7 +8,7 @@ Run the rsp-assistant skill in **draft-response** mode on:
 $ARGUMENTS
 
 1. Apply `copilot-common` privacy rules and the writing-helper RSP tone: precise, technical, neutral, evidence-led; no speculation about the RSP's network, no emotional language, no internal remarks.
-2. Choose the matching template in `references/response-templates.md` (fault accepted on access side, fault not found on access side, awaiting RSP evidence, planned works, repeat fault). Use `references/wholesale-demarcation.md` for the correct demarcation wording.
+2. Choose the matching template in `${CLAUDE_PLUGIN_ROOT}/skills/rsp-assistant/references/response-templates.md` (fault accepted on access side, fault not found on access side, awaiting RSP evidence, planned works, repeat fault). Use `${CLAUDE_PLUGIN_ROOT}/skills/rsp-assistant/references/wholesale-demarcation.md` for the correct demarcation wording.
 3. Before writing WHAT THIS INDICATES, run the evidence-check rule from SKILL.md on each sentence: every claim must be supported by a fact in ACCESS NETWORK FINDINGS. If not supported, reword as a question or drop it.
 4. Output:
 ```
@@ -34,4 +34,4 @@ INTERNAL NOTES (not to send)
 <anything removed from the draft, confidence, who to copy>
 ```
 5. Never state or imply the RSP is at fault. State what the access network shows and what remains to be established. Do not quote SLA restoration times unless the employee gave them.
-6. Input missing: if the evidence is too thin to state findings, output the "awaiting RSP evidence" template with the questions from `references/rsp-question-bank.md` and say under INTERNAL NOTES which access checks should be done first.
+6. Input missing: if the evidence is too thin to state findings, output the "awaiting RSP evidence" template with the questions from `${CLAUDE_PLUGIN_ROOT}/skills/rsp-assistant/references/rsp-question-bank.md` and say under INTERNAL NOTES which access checks should be done first.

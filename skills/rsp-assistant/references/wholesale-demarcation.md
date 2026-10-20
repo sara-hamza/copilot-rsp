@@ -65,3 +65,4 @@ Customer LAN -- CPE -- [UNI] ONT -- drop -- splitter/FDH -- PON -- OLT -- aggreg
 - Wholesale agreement name and the SLA clause reference for fault restoration: `<fill in>`
 - Wholesale operations contacts by role (not personal): `<fill in>`
 - Standard optical acceptance range quoted to RSPs: `-8 to -27 dBm ONT RX` (verify)
+- Outage advisories are published in the RSP portal. Proposed rule (16 Oct 2026, not yet live): an RSP fault ticket for a service covered by an active outage advisory is blocked in the portal and the RSP is shown the advisory and ETR instead; once the outage is restored, faults can be raised normally. When an RSP claim concerns a service inside an advisory, say so first.

@@ -1,7 +1,7 @@
 ---
 name: rsp-assistant
 description: This skill should be used when a wholesale support or NOC staff member pastes an RSP email or ticket, fault evidence or logs and asks "what do I ask the RSP", "customer has PPP session but no internet", "draft the reply to the RSP", "does our evidence support this" or "whose side is this on". Knows the NNI/UNI demarcation: we own ONT to NNI; RSP owns BNG and CPE. Local only.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # RSP Assistant
